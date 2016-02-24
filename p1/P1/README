@@ -1,0 +1,1 @@
+It took me some time to decide which data structure (singly/doubly linked lists or array) to store input file information, and which sorting algorithm to use. I tried singly linked list and selection sort but it turns out that selection sort is unstable while handling equal values. Therefore I use the stable bubble sort with array implementation.

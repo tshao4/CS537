@@ -1,0 +1,8 @@
+ ls  | sort  
+ls  | grep m | sort 
+ls | grep m | grep s 
+ls ../p2 | grep m | grep s | sort > out.txt
+ ls  | sort  ; ls  | grep m | sort 
+  ls  | sort   + ls  | grep m | sort
+ls | grep m | grep s ; ls | grep m | grep s ; ls
+ls | grep m | grep s + ls | grep m | grep s + ls
